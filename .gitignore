@@ -1,0 +1,60 @@
+# IDA Pro temporary and backup files
+*.id0
+*.id1
+*.id2
+*.idb
+*.i64
+*.nam
+*.til
+*.tilib
+*.idb_backup
+*.i64_backup
+*.old
+*.bak
+*.lo*
+*.scc
+*.rid
+
+# IDA config/project files
+*.gid
+*.arg
+*.id0
+*.id1
+*.id2
+*.nam
+*.til
+*.pat
+*.pdb
+*.i64
+
+# Workspaces and state
+*.idc
+*.lst
+*.asm
+*.map
+
+# User-specific settings
+ida.user
+
+# IDA database
+*.id[0-9]
+*.i64
+*.i[0-9]
+
+# Auto-analysis cache
+ida.cache/
+
+# Qt-related UI state
+.qwindowlayout*
+
+# If you store IDA projects in a subfolder
+**/ida/ida.cache/
+**/ida/*.idb
+**/ida/*.i64
+
+# Binaries
+*.elf
+*.out
+
+# GDB SHITS
+.gdb_history
